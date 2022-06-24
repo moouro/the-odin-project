@@ -14,6 +14,8 @@ This repository was created to store all the projects made through <a href="http
 
 * [Odin recipes](https://github.com/moouro/the-odin-project/tree/main/html-odin-recipes) 
 
+* [Landind page](https://github.com/moouro/the-odin-project/tree/main/landing-page) 
+
 
 
 
