@@ -10,6 +10,7 @@
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
 }
 
 body {
@@ -37,16 +38,93 @@ h6 {
   overflow-wrap: break-word;
 }
 
-.container {
-  width: min(100% - 2rem, 960px);
-  margin-inline: auto;
-}
-
 /* header */
 
 .header {
   background-color: #1f2937;
   color: #f9faf8;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  margin-bottom: 6rem;
+  height: 70rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul li a {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  transition: all ease-in 2s;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(100% - 2rem, 1208px);
+  margin-inline: auto;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.col-one {
+  flex: 1;
+}
+
+.col-two {
+  flex: 1;
+}
+
+.col-one h1 {
+  font-size: 4.8rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.col-one p {
+  font-size: 1.8rem;
+  color: #f9faf8;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.col-one .btn {
+  color: #f9faf8;
+  font-size: 1.8rem;
+  font-weight: 900;
+  background-color: #3882f6;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  transition: brightness 0.2s;
+}
+
+.col-one .btn:hover {
+  filter: brightness(0.9);
+}
+
+.col-two img {
+  width: 900px;
 }
