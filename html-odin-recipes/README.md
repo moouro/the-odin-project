@@ -4,7 +4,7 @@ It's time to put into practice all the HTML knowledge I've acquired so far. In t
 
 ## Project image
 
-![Site preview](https://raw.githubusercontent.com/moouro/odin-recipes/main/img/tela.png)
+![Site preview](https://raw.githubusercontent.com/moouro/the-odin-project/main/html-odin-recipes/img/tela.png)
 
 ## 🛠 Technologies
 
@@ -12,4 +12,4 @@ It's time to put into practice all the HTML knowledge I've acquired so far. In t
 
 ## Live Preview
 
-[Live preview](https://moouro.github.io/odin-recipes/)
+[Live preview](https://odin-recipes.surge.sh/)
