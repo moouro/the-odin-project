@@ -77,8 +77,12 @@ ul li a:hover {
   text-decoration: underline;
 }
 
+section {
+  padding-block: 3rem;
+}
+
 .container {
-  width: min(100% - 2rem, 1208px);
+  width: min(100% - 3rem, 1208px);
   margin-inline: auto;
 }
 
@@ -131,9 +135,61 @@ ul li a:hover {
 }
 
 /*  Section About */
-
+#about {
+  margin-bottom: 4rem;
+}
 
 #about h2 {
   font-size: 3.6rem;
+  font-weight: 900;
   text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+
+}
+
+.cards_container div {
+  width: 200px;
+
+}
+
+.cards_container img {
+  border: 3px solid #3882f6;
+  border-radius: 1rem;
+}
+
+.cards_container p {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 0.8rem;
+  line-height: 1.2
+}
+
+
+/* testimonials */
+
+#testimonials {
+  background-color: #e5e7eb;
+  font-size: 3.6rem;
+  font-style: italic;
+  color: #1f2937;
+  padding-block: 8rem;
+}
+
+#testimonials blockquote {
+  text-align: center;
+}
+
+#testimonials cite {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: normal;
+  text-align: right;
+  display: block;
 }
