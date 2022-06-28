@@ -82,6 +82,7 @@ ul li a:hover {
   margin-inline: auto;
 }
 
+/* hero  */
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -127,4 +128,12 @@ ul li a:hover {
 
 .col-two img {
   width: 900px;
+}
+
+/*  Section About */
+
+
+#about h2 {
+  font-size: 3.6rem;
+  text-align: center;
 }
