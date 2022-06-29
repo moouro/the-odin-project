@@ -78,7 +78,7 @@ ul li a:hover {
 }
 
 section {
-  padding-block: 3rem;
+  padding-block: 10rem;
 }
 
 .container {
@@ -162,6 +162,11 @@ section {
 .cards_container img {
   border: 3px solid #3882f6;
   border-radius: 1rem;
+  transition: transform 300ms;
+}
+
+.cards_container img:hover {
+  transform: scale(1.1);
 }
 
 .cards_container p {
@@ -192,4 +197,61 @@ section {
   font-style: normal;
   text-align: right;
   display: block;
+}
+
+
+/* contact */
+
+#contact .container {
+  background-color: #3882f6;
+}
+
+
+#contact h3,
+#contact p,
+#contact a {
+  color: #f9faf8;
+
+}
+
+#contact h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+#contact p {
+  font-size: 1.8rem;
+
+}
+
+#contact .btn-secondary {
+  font-size: 1.8rem;
+  border: 1px solid #f9faf8;
+  border-radius: .5rem;
+  padding: 1rem 3rem;
+  transition: background-color 0.2s;
+}
+
+#contact .btn-secondary:hover {
+  background-color: #f9faf8;
+  color: #1f2937;
+}
+
+#contact .call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 7rem;
+  text-align: center;
+  font-size: 1.8rem;
+
 }
